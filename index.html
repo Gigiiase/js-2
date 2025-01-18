@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blt.ge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h2>BLT.ge</h2>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-btn">
+               <h2><search></search></h2>
+            </button>
+        </div>
+        <nav class="nav-links">
+            <button class="nav-btn">კატეგორიები</button>
+            <button class="nav-btn">მუსიკა/კონცერტი</button>
+            <button class="nav-btn highlight">კინო</button>
+            <button class="nav-btn">ღონისძიება</button>
+            <button class="nav-btn">ტრანსპორტი</button>
+            <button class="nav-btn">თეატრი</button>
+            <button class="nav-btn ">ფრენა</button>
+        </nav>
+    </header>
+
+    <section class="body1"> 
+    <div class="container">
+        <div class="movie_div">  
+            <h1>Pick a movie:</h1>
+            <select id="movie">
+                <option value="10">მე შენამდე ($10)</option>
+                <option value="12">მეფე ლომი ($12)</option>
+                <option value="8">ყინულის დედოფალი ($8)</option>
+            </select>
+        </div>
+            
+        <ul class="legend">
+            <li><span class="na"></span> NA</li>
+            <li><span class="selected"></span> Selected</li>
+            <li><span class="occupied"></span> Occupied</li>
+        </ul>
+
+        <div class="screen">Screen</div>
+
+        <div class="seats">
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+            </div>
+
+            <div class="row_2">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row_2">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row_2">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+            </div>
+        </div>
+
+        <p class="text">
+            You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+        </p>
+    </div>
+</section>
+
+
+
+
+<footer>
+    <div class="footer-content">
+      <!-- Left Section -->
+      <div class="footer-left">
+        <h4>Movie Mania</h4>
+        <p>Explore the world of movies with reviews, trailers, and exclusive content.</p>
+      </div>
+  
+      <!-- Middle Section -->
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/movies">Movies</a></li>
+          <li><a href="/reviews">Reviews</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Right Section -->
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="https://facebook.com">Facebook</a></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="https://instagram.com">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Bottom Section -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 Movie Mania. All rights reserved.</p>
+      <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+    </div>
+  </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
